@@ -1,4 +1,4 @@
-# 🌐 Personal Profile Webpage
+# Personal Profile Webpage
 
 This is a simple responsive personal profile webpage built with HTML and CSS Grid.webpage built with **HTML** and **CSS Grid** as part of my AltSchool Africa Software Engineering program.  
 The webpage introduces me, showcases my hobbies, and describes my aspirations in life.  
@@ -31,13 +31,6 @@ The webpage includes:
 - Create a **responsive webpage** that adapts to screen sizes  
 - Use semantic HTML elements (`<header>`, `<section>`, `<div>`)  
 - Style elements with background colors, borders, and spacing  
-
----
-
-## ✨ Future Improvements
-- Replace the profile circle with an actual profile picture  
-- Add more sections such as skills or projects  
-- Improve responsiveness with advanced CSS techniques (Flexbox + Grid together)  
 
 ---
 
