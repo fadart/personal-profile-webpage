@@ -1,0 +1,119 @@
+/* Base styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f8fb;
+  margin: 0;
+  color: #222;
+}
+
+/* Main grid container */
+main.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 1.5rem;
+}
+
+/* Top section: Profile + About */
+.about-section {
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background: #d6eaff;
+  border-radius: 18px;
+  border: 1.5px solid #b3c7e6;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(100, 150, 200, 0.07);
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2.5px solid #7fa7d6;
+  background: #eaf4ff;
+}
+
+.about-text {
+  padding-left: 1.5rem;
+}
+
+.about-text h2 {
+  margin-top: 0;
+  color: #2a4d7c;
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
+}
+
+.about-text p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+/* Bottom section: Hobbies & Aspiration */
+.info-section {
+  background: #eaf4ff;
+  border-radius: 14px;
+  border: 1.5px solid #b3c7e6;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  box-shadow: 0 1px 6px rgba(100, 150, 200, 0.06);
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hobbies h2,
+.aspiration h2 {
+  color: #7c2a4d;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hobbies ul {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+.hobbies li {
+  margin-bottom: 0.4rem;
+}
+
+.aspiration p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+  main.container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 0.7rem;
+  }
+  .about-section {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    text-align: center;
+  }
+  .about-text {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  .info-section {
+    padding: 0.8rem;
+  }
+}
