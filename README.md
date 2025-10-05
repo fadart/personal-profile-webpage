@@ -34,6 +34,5 @@ The webpage includes:
 
 ---
 
-## 🌐 Live webpage
-Once hosted, add your link here:  
+## 🌐 Live webpage  
 [View on Netlify](https://fatimah-personal-profile.netlify.app/)  
